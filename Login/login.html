@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<link
+    href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+    rel="stylesheet">
+<link rel="stylesheet" href="login.css">
+<link rel="icon"
+    href="https://cdn.shopify.com/s/files/1/0882/6874/files/Favicon_7650878f-781c-441e-89dd-911e74a22529_32x32.png?v=1560908201">
+
+<head>
+    <title>The Original $1 Dollar Makeup, Cosmetics and Beauty Online Shop...</title>
+</head>
+
+<body>
+
+    <div id="dollar">
+        <div>Affordable is Beautiful - Yes, it's only 1$!</div>
+    </div>
+    <div id="nav_bar">
+        <div>
+            <div id="conversion_div">
+                <select id="conversion">
+                    <option value="USD">USD</option>
+                    <option value="CAD">CAD</option>
+                    <option value="BRL">BRL</option>
+                    <option value="EUR">EUR</option>
+                    <option value="GBP">GBP</option>
+                    <option value="AUD">AUD</option>
+                    <option value="MXN">MXN</option>
+                </select>
+            </div>
+        </div>
+        <div id="nav_grid">
+            <div>
+                <img
+                    src="https://cdn.shopify.com/s/files/1/0882/6874/files/Miss-A-Logo_beda907e-dae8-4655-a8c8-a670f8391f25_90x.png?v=1589222508">
+            </div>
+            <div>
+                <div>NEW ARRIVALS</div>
+                <div>BEST SELLERS</div>
+                <div>MAKEUP</div>
+                <div>SKINCARE</div>
+                <div>ACCESSORIES</div>
+                <div>LIFE + HOME</div>
+                <div>SPA + BODY</div>
+            </div>
+        </div>
+        <div id="options">
+            <div><img src="C:\Users\Sumit Singh\Desktop\ftweb10\Major Project\MISS A\Images\user.png"></div>
+            <div><img src="C:\Users\Sumit Singh\Desktop\ftweb10\Major Project\MISS A\Images\heart.png"></div>
+            <div><img src="C:\Users\Sumit Singh\Desktop\ftweb10\Major Project\MISS A\Images\image.png"></div>
+            <div><img src="C:\Users\Sumit Singh\Desktop\ftweb10\Major Project\MISS A\Images\shopping-bag.png"></div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+<script>
+    //Navigation sticky controller
+    const navBar = document.getElementById("nav_bar");
+    const blueStrip = document.getElementById("blueStrip");
+    const sticky = navBar.offsetTop;
+    window.onscroll = function () {
+        if (window.pageYOffset > sticky) {
+            navBar.style.position = "fixed";
+            navBar.style.top = "0";
+        } else {
+            navBar.style.position = "none";
+            navBar.style.top = "40px";
+        }
+    }
+</script>
