@@ -1,0 +1,345 @@
+body{
+    font-family: 'Karla', sans-serif;
+    margin: 0px;
+}
+
+
+#dollar{
+    display: flex;
+    height: 40px;
+    font-size: 10px;
+        background-color: #efcbd7;
+}
+#dollar>div{
+    text-align: center;
+    align-self: center;
+    flex-grow: 1;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/*NAV BAR*/
+#nav_bar{
+    width: 100%;
+    height: 135px;
+    background-color: black;
+    display: flex;
+    z-index: 999;
+}
+#nav_bar>div{
+    height: 75%;
+    margin: auto;
+}
+#nav_bar>div:nth-child(1){
+    flex-grow: 0.5;
+}
+#nav_bar>div:nth-child(2){
+    flex-grow: 2.5;
+}
+#nav_bar>div:nth-child(3){
+    flex-grow: .5;
+}
+
+#conversion_div{
+    padding: 15% 20%;
+}
+#conversion{
+    width: 60%;
+    font-size: 11px;
+    font-weight: 700;
+    color: rgb(150, 141, 141);
+    color: white;
+    border: 1px solid black;
+    background-color: black;
+}
+
+#nav_grid{
+    display: flex;
+    flex-direction: column;
+}
+#nav_grid>div:nth-child(1){
+    width: 100%;
+    height: 70%;
+    align-self: center;
+}
+#nav_grid>div:nth-child(1) img{
+    margin-left: 47%;
+    width: auto;
+}
+#nav_grid>div:nth-child(2){
+    width: 100%;
+    height: 30%;
+    display: flex;
+}
+#nav_grid>div:nth-child(2) div{
+    width: 10%;
+    margin: 1% .8%;
+    padding: 2px;
+    height: 90%;
+    color: white;
+    font-size: small;
+    font-weight: 700;
+    text-align: center;
+}
+#nav_grid>div:nth-child(2) div:nth-child(1){
+    margin-left: 10%;
+}
+
+#options{
+    display: flex;
+    height: 24px;
+}
+#options>div{
+    margin-top: 18px;
+    width: 22px;
+    height: 22px;
+    margin-left: 1%;
+    flex-basis: 22%;
+    display: flex;
+}
+
+#offers>img{
+    width: 100%;
+}
+
+/* COntent */
+#content{
+    margin: 6% auto;
+    width: 94%;
+    display: flex;
+}
+#content>div{
+    margin: 4%;
+    height: 540px;
+    display: flex;
+    flex-direction: column;
+}
+#content>div:nth-child(1){
+    width: 60%;
+    height: 1000px;
+}
+#content>div:nth-child(2){
+    width: 30%;
+    height: 1300px;
+}
+#photoGallery{
+    display: flex;
+    flex-direction: row;
+}
+#photoGallery>div{
+    margin: 1%;
+}
+#photoGallery>div:nth-child(1){
+    height: 55%;
+}
+#photoGallery>div:nth-child(3){
+    margin-top: 15%;
+}
+#mainPhoto{
+    display: block;
+    align-self: center;
+    width: 50%;
+     position:relative;
+  margin:0 auto;
+}
+#mainPhoto>img{
+    width: 100%;
+    cursor: url("//cdn.shopify.com/s/files/1/0882/6874/t/288/assets/cursor-zoom-in.svg?v=10343610257665083682");
+}
+#mainPhoto img {
+  position:absolute;
+  left:0;
+  transition: transform .4s ease-in-out;
+}
+#mainPhoto img.top:hover {
+  transform:scale(1.7);
+}
+#gallery{
+    width: 100%;
+    display: flex;
+}
+#gallery>div{
+    width: 100%;
+}
+#gallery>div>img{
+    width: 82%;
+}
+#question{
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+}
+#question>div{
+    height: 50px;
+    border-top: 1px solid rgba(128, 128, 128, 0.192);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.192);
+    padding-top: 5%;
+    font-size: 14px;
+    font-weight: 700;
+}
+#information{
+    padding: 30px;
+}
+#information>div:nth-child(1){
+    font-size: small;
+    font-weight: 700;
+}
+#information>div:nth-child(2){
+    font-size: large;
+    font-weight: 500;
+    margin-top: 30px;
+}
+#information>div:nth-child(3){
+    font-weight: 500;
+    margin-top: 5px;
+    font-size: 12px;
+    color: gray;
+}
+#information>div:nth-child(4){
+    font-weight: 500;
+    margin-top: 15px;
+    font-size: 14px;
+    display: flex;
+
+}
+#information>div:nth-child(4)>div{
+    flex-basis: 32%;
+    align-self: center;
+}
+#information>div:nth-child(4)>div>img{
+    width: 100%;
+}
+#information>div:nth-child(5){
+    margin-top: 20px;
+    color: #f52f65;
+    font-weight: 700;
+    word-spacing: 30px;
+}
+#information>div:nth-child(5)>span{
+    color: gray;
+    font-weight: 700;
+    text-decoration:line-through;
+}
+#information>div:nth-child(6){
+    margin-top: 15px;
+    font-size: 14px;
+}
+#information>div:nth-child(7){
+    margin-top: 15px;
+    font-size: 14px;
+}
+#afterpay>img,
+#zip>img{
+    width: 60px;
+}
+#counter{
+    margin-top: 12%;
+    width: 40%;
+    border: 1px solid rgba(128, 128, 128, 0.247);
+    display: flex;
+}
+#counter>div{
+    flex-basis: 33%;
+    font-size: 14px;
+    height: 30px;
+    text-align: center;
+    margin-top: 10px;
+}
+#zoom1,
+#zoom2{
+    cursor: pointer;
+}
+#information>div:nth-child(9){
+    margin-top: 45px;
+    font-size: 14px;
+    color: #e7677e;
+    cursor: pointer;
+}
+#information>div:nth-child(9)>span>img{
+    width: 4%;
+}
+#tocart{
+    margin-top: 20px;
+    width: 100%;
+    padding: 5%;
+    color: white;
+    background-color: black;
+    font-size: small;
+    text-align: center;
+    cursor: pointer;
+}
+#tocart>div{
+    width: 100%;
+}
+#information>div:nth-child(11){
+    margin-top: 35px;
+    font-size: 14px;
+}
+#information>div:nth-child(11) span{
+    color: #e7677e;
+}
+#information>div:nth-child(12){
+    margin-top: 45px;
+    font-size: 14px;
+    line-height: 45px;
+}
+#information>div:nth-child(13){
+    margin-top: 45px;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding: 10px;
+}
+
+
+/* Fotter */
+#footer{
+    background-color: #2e2e2e;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+#footer>div{
+    margin: 1%;
+    width: 94%;
+    display: flex;
+}
+#footer_center>div{
+    margin: 1% 5%;
+    width: 80%;
+    height: 85%;
+    color: white;
+}
+#footer_center>div>p{
+    font-size: 13px;
+    cursor: pointer;
+}
+#footer_center{
+        height: 350px;
+}
+#connection{
+    height: 100px;
+}
+#connection>div{
+    width: 2%;
+    margin: 1%;
+}
+#connection>div:nth-child(1){
+    margin-left: 5%;
+}
+#connection>div>img{
+    width: 80%;
+    margin: 1%;
+    cursor: pointer;
+}
+#copyright{
+        height: 50px;
+}
+#copyright>p{
+    font-size: x-small;
+        color: white;
+        margin-left: 5%;
+}
