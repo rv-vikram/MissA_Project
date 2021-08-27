@@ -46,10 +46,14 @@
             </div>
         </div>
         <div id="options">
-            <div><img src="C:\Users\Sumit Singh\Desktop\ftweb10\Major Project\MISS A\Images\user.png"></div>
-            <div><img src="C:\Users\Sumit Singh\Desktop\ftweb10\Major Project\MISS A\Images\heart.png"></div>
-            <div><img src="C:\Users\Sumit Singh\Desktop\ftweb10\Major Project\MISS A\Images\image.png"></div>
-            <div><img src="C:\Users\Sumit Singh\Desktop\ftweb10\Major Project\MISS A\Images\shopping-bag.png"></div>
+            <div id="user_login"><img src="C:\Users\Sumit Singh\Desktop\ftweb10\Major Project\MISS A\Images\user.png">
+            </div>
+            <div id="wishlist"><img src="C:\Users\Sumit Singh\Desktop\ftweb10\Major Project\MISS A\Images\heart.png">
+            </div>
+            <div id="search"><img src="C:\Users\Sumit Singh\Desktop\ftweb10\Major Project\MISS A\Images\image.png">
+            </div>
+            <div id="cartvalue"><img
+                    src="C:\Users\Sumit Singh\Desktop\ftweb10\Major Project\MISS A\Images\shopping-bag.png"></div>
         </div>
     </div>
     <div id="blueStrip">ALL ORDERS SHIP OUT IN 48 HOURS (EXCLUDING WEEKENDS) FROM DALLAS, TX
@@ -65,18 +69,4 @@
 
 </html>
 
-<script>
-    //Navigation sticky controller
-    const navBar = document.getElementById("nav_bar");
-    const blueStrip = document.getElementById("blueStrip");
-    const sticky = navBar.offsetTop;
-    window.onscroll = function () {
-        if (window.pageYOffset > sticky) {
-            navBar.style.position = "fixed";
-            navBar.style.top = "0";
-        } else {
-            navBar.style.position = "static";
-            navBar.style.top = "40px";
-        }
-    }
-</script>
+<script src="Home.js"></script>

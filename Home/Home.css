@@ -95,6 +95,7 @@ body{
     margin-left: 1%;
     flex-basis: 22%;
     display: flex;
+    cursor: pointer;
 }
 
 /* BLue Strip */
