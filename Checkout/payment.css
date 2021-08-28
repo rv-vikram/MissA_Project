@@ -1,0 +1,125 @@
+#content{
+    margin: -8px 0;
+    display: flex;
+    font-family: 'Karla', sans-serif;
+}
+
+#left_pane{
+margin: 0px;
+width: 55%;
+height: 1150px;
+}
+#logo{
+    margin-top: 7%;
+    width: 100%;
+    flex-grow: 1;
+    padding-left: 50%;
+}
+#logo>img{
+    text-align: center;
+    width: 12%;
+}
+#progress{
+    text-align: center;
+    margin-top: 16px;
+    margin-left: 10%;
+    font-size: 12px;
+    word-spacing: 4px;
+}
+#progress>span{
+    cursor: pointer;
+}
+#shippingDetail{
+    margin: 3%;
+    margin-left: 70px;
+    width: 80%;
+    border: 1px solid rgba(128, 128, 128, 0.253);
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+
+}
+#shippingDetail>div{
+    text-align: left;
+    margin: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#shippingDetail>div>div:nth-child(1){
+    color: gray;
+    font-size: 14px;
+}
+#shippingDetail>div>div:nth-child(3){
+    cursor: pointer;
+    font-size: 14px;
+}
+
+
+
+#right_pane{
+margin: 0px;
+width: 45%;
+height: auto;
+border-left: 1px solid rgba(128, 128, 128, 0.26);
+background-color: #fafafa;
+}
+#right_pane>div:nth-child(1){
+    margin: 5%;
+    margin-top: 7%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+#right_pane>div:nth-child(1)>div{
+    width: 40%;    
+}
+#right_pane>div:nth-child(1)>div:nth-child(1){
+    width: 20%;    
+}
+
+#right_pane>div:nth-child(1)>div>img{
+    width: 50%;
+}
+.line{
+    margin: 25px;
+    width: 70%;
+    border: .5px solid rgba(128, 128, 128, 0.199);
+}
+#code{
+    margin:4%;
+    display: flex;
+}
+#code>input{
+    width: 60%;
+    height: 50px;
+    border: 1px solid rgba(128, 128, 128, 0.233);
+}
+#code>div{
+    margin-left: 1%;
+    text-align: center;
+    padding: 3%;
+    width: 10%;
+    height: 20px;
+    background-color: #454545;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#right_pane>div:nth-child(5){
+    margin-top: 3%;
+    font-size: 14px;
+    word-spacing: 350px;
+}
+#right_pane>div:nth-child(6){
+    margin-top: 2%;
+    font-size: 14px;
+    word-spacing: 347px;
+}
+#right_pane>div:nth-child(7){
+    margin-top: 2%;
+    font-size: 14px;
+    word-spacing: 295px;
+}
+

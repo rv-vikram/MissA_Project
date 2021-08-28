@@ -42,12 +42,54 @@
                 <div>Shipping address</div>
                 <div id="address">
                     <input type="text" placeholder="First Name"><input type="text" placeholder="Last Name">
+                    <input type="text" placeholder="Company (Optional)">
+                    <input type="text" placeholder="Address">
+                    <input type="text" placeholder="Apartment, suite (optional)">
+                    <input type="text" placeholder="City">
+                    <input type="text" placeholder="Country">
+                    <input type="text" placeholder="State">
+                    <input type="text" placeholder="Zip Code">
+                    <input type="text" placeholder="Phone">
+                </div>
+                <div><input type="checkbox"><label>Send me special offers through text*</label></div>
+                <div>*I agree to receive recurring automated marketing text messages (e.g. cart reminders) at the phone
+                    number provided.
+                    Consent is not a condition to purchase. Msg & data rates may apply. Msg frequency varies. Reply HELP
+                    for help and STOP
+                    to cancel. View our <u>Terms of Service</u> and <u>Privacy Policy</u>.</div>
+                <div>
+                    <div>> Return to Cart</div>
+                    <div id="payments">Continue Payment</div>
                 </div>
             </div>
         </div>
 
-        <div id="right_pane">Hi</div>
+        <div id="right_pane">
+            <div>
+                <div><img src="https://cdn.shopify.com/s/files/1/0882/6874/products/04_400x.jpg?v=1613077493"></div>
+                <div>Paw Paw Collection Gift Set</div>
+                <div>$25.55</div>
+            </div>
+            <div class="line"></div>
+            <div id="code">
+                <input type="text" placeholder="Gift Card or Dicount code">
+                <div>Apply</div>
+            </div>
+            <div class="line"></div>
+            <div>Subtotal <b>$25.55</b></div>
+            <div>Shipping <b>$3.95</b></div>
+            <div>Taxes(estimated) <b>$2.43</b></div>
+            <div class="line"></div>
+            <div id="total"></div>
+        </div>
     </div>
 </body>
 
 </html>
+
+<script>
+    const payments = document.getElementById("payments");
+    payments.addEventListener("click", function () {
+        window.location.href = "file:///C:/Users/Sumit%20Singh/Desktop/ftweb10/Major%20Project/Miss%20A/checkout/payment.html";
+    });
+</script>

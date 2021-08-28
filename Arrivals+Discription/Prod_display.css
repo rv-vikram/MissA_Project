@@ -65,6 +65,7 @@ body{
 #nav_grid>div:nth-child(1) img{
     margin-left: 47%;
     width: auto;
+    cursor: pointer;
 }
 #nav_grid>div:nth-child(2){
     width: 100%;
@@ -80,6 +81,7 @@ body{
     font-size: small;
     font-weight: 700;
     text-align: center;
+    cursor: pointer;
 }
 #nav_grid>div:nth-child(2) div:nth-child(1){
     margin-left: 10%;
@@ -96,12 +98,8 @@ body{
     margin-left: 1%;
     flex-basis: 22%;
     display: flex;
+    cursor: pointer;
 }
-
-#offers>img{
-    width: 100%;
-}
-
 /* COntent */
 #content{
     margin: 6% auto;
@@ -144,7 +142,7 @@ body{
 }
 #mainPhoto>img{
     width: 100%;
-    cursor: url("//cdn.shopify.com/s/files/1/0882/6874/t/288/assets/cursor-zoom-in.svg?v=10343610257665083682");
+    cursor: zoom-in;
 }
 #mainPhoto img {
   position:absolute;
@@ -160,6 +158,7 @@ body{
 }
 #gallery>div{
     width: 100%;
+    cursor: pointer;
 }
 #gallery>div>img{
     width: 82%;

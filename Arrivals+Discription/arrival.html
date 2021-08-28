@@ -31,12 +31,12 @@
             </div>
         </div>
         <div id="nav_grid">
-            <div>
+            <div id="missLogo">
                 <img
                     src="https://cdn.shopify.com/s/files/1/0882/6874/files/Miss-A-Logo_beda907e-dae8-4655-a8c8-a670f8391f25_90x.png?v=1589222508">
             </div>
             <div>
-                <div>NEW ARRIVALS</div>
+                <div id="arrivals">NEW ARRIVALS</div>
                 <div>BEST SELLERS</div>
                 <div>MAKEUP</div>
                 <div>SKINCARE</div>
@@ -46,10 +46,14 @@
             </div>
         </div>
         <div id="options">
-            <div><img src="C:\Users\Sumit Singh\Desktop\ftweb10\Major Project\MISS A\Images\user.png"></div>
-            <div><img src="C:\Users\Sumit Singh\Desktop\ftweb10\Major Project\MISS A\Images\heart.png"></div>
-            <div><img src="C:\Users\Sumit Singh\Desktop\ftweb10\Major Project\MISS A\Images\image.png"></div>
-            <div><img src="C:\Users\Sumit Singh\Desktop\ftweb10\Major Project\MISS A\Images\shopping-bag.png"></div>
+            <div id="user_login"><img src="C:\Users\Sumit Singh\Desktop\ftweb10\Major Project\MISS A\Images\user.png">
+            </div>
+            <div id="wishlist"><img src="C:\Users\Sumit Singh\Desktop\ftweb10\Major Project\MISS A\Images\heart.png">
+            </div>
+            <div id="search"><img src="C:\Users\Sumit Singh\Desktop\ftweb10\Major Project\MISS A\Images\image.png">
+            </div>
+            <div id="cartvalue"><img
+                    src="C:\Users\Sumit Singh\Desktop\ftweb10\Major Project\MISS A\Images\shopping-bag.png"></div>
         </div>
     </div>
     <div id="offers"><img
@@ -62,12 +66,12 @@
             <div><img src="C:\Users\Sumit Singh\Desktop\ftweb10\Major Project\MISS A\Images\grid.png"></div>
         </div>
         <div></div>
-        <div>
+        <div id="sortit">
             <select id="sorted">
                 <option value="sort">Sort</option>
                 <option value="popular">Popularity</option>
-                <option value="PLtoH">Price, High to Low</option>
-                <option value="PHtoL">Price, Low to High</option>
+                <option value="PHtoL">Price, High to Low</option>
+                <option value="PLtoH">Price, Low to High</option>
                 <option value="AAtoZ">Alphabetical, A to Z</option>
                 <option value="AZtoA">Alphabetical, Z to A</option>
             </select>
@@ -118,127 +122,4 @@
 
 </html>
 
-<script>
-    //Navigation sticky controller
-    const navBar = document.getElementById("nav_bar");
-    const sticky = navBar.offsetTop;
-    window.onscroll = function () {
-        if (window.pageYOffset > sticky) {
-            navBar.style.position = "fixed";
-            navBar.style.top = "0";
-        } else {
-            navBar.style.position = "static";
-            navBar.style.top = "40px";
-        }
-    }
-
-    //shopping data
-    var shopping_data = [
-        {
-            image1: "https://cdn.shopify.com/s/files/1/0882/6874/products/B04437-4_400x.jpg?v=1629861881",
-            image2: "https://cdn.shopify.com/s/files/1/0882/6874/products/B04437-3_400x.jpg?v=1629861881",
-            name: "Virgin Mary Charm Bead Bracelet",
-            cost: 1
-        },
-        {
-            image1: "https://cdn.shopify.com/s/files/1/0882/6874/products/N03875-78-3_400x.jpg?v=1629861160",
-            image2: "https://cdn.shopify.com/s/files/1/0882/6874/products/N03875-78-5_400x.jpg?v=1629861160",
-            name: "Rose Charm Necklace",
-            cost: 1
-        },
-        {
-            image1: "https://cdn.shopify.com/s/files/1/0882/6874/products/B04427-28-2_400x.jpg?v=1629859993",
-            image2: "https://cdn.shopify.com/s/files/1/0882/6874/products/B04427-28-3_400x.jpg?v=1629859993",
-            name: "Multi-Charm Bangle Bracelet",
-            cost: 1
-        },
-        {
-            image1: "https://cdn.shopify.com/s/files/1/0882/6874/products/A07245-47-8_400x.jpg?v=1629858915",
-            image2: "https://cdn.shopify.com/s/files/1/0882/6874/products/A07245-47-10_400x.jpg?v=1629858915",
-            name: "Multi-Design Animal Hair Brush",
-            cost: 1
-        },
-        {
-            image1: "https://cdn.shopify.com/s/files/1/0882/6874/products/A07189-93-3_400x.jpg?v=1629858350",
-            image2: "https://cdn.shopify.com/s/files/1/0882/6874/products/A07189-93-7_400x.jpg?v=1629858350",
-            name: "Fruit Print Low-Cut Socks",
-            cost: 1
-        },
-        {
-            image1: "https://cdn.shopify.com/s/files/1/0882/6874/products/H010199-9_400x.jpg?v=1629857329",
-            image2: "https://cdn.shopify.com/s/files/1/0882/6874/products/H010199-2_400x.jpg?v=1629857329",
-            name: "Fashion Pearl Jaw Clip",
-            cost: 1
-        },
-        {
-            image1: "https://cdn.shopify.com/s/files/1/0882/6874/products/H010255-2_400x.jpg?v=1629857101",
-            image2: "https://cdn.shopify.com/s/files/1/0882/6874/products/H010255-5_400x.jpg?v=1629857101",
-            name: "36-Piece Black Thin Hair Ties",
-            cost: 1
-        },
-        {
-            image1: "https://cdn.shopify.com/s/files/1/0882/6874/products/PawPawGiftSet-6_400x.jpg?v=1613077493",
-            image2: "https://cdn.shopify.com/s/files/1/0882/6874/products/04_400x.jpg?v=1613077493",
-            name: "Paw Paw Collection Gift Set",
-            cost: 25.55
-        },
-        {
-            image1: "https://cdn.shopify.com/s/files/1/0882/6874/products/PM-set-detail1_37d7a703-b9c5-4e54-96e2-a90c20361616_400x.jpg?v=1613078809",
-            image2: "https://cdn.shopify.com/s/files/1/0882/6874/products/043_400x.jpg?v=1613078809",
-            name: "AOA Essential 24-Piece Brush Set",
-            cost: 20
-        },
-        {
-            image1: "https://cdn.shopify.com/s/files/1/0882/6874/products/EyeCreamRod-0_400x.jpg?v=1624394126",
-            image2: "https://cdn.shopify.com/s/files/1/0882/6874/products/Bundles240_400x.jpg?v=1624394126",
-            name: "Bright Eyes Kit",
-            cost: 10
-        }
-    ];
-
-    //sending data to local storage
-    localStorage.setItem("shopping_data", JSON.stringify(shopping_data));
-
-    //Putting data to html section
-    function shoppingPush() {
-        const content = document.getElementById("content");
-        shopping_data.forEach(function (item) {
-            const div1 = document.createElement("div");
-            const div1_1 = document.createElement("div");
-            div1_1.className = "fader";
-            const img1 = document.createElement("img");
-            img1.className = "bottom";
-            img1.src = item.image1;
-            const img2 = document.createElement("img");
-            img2.className = "top";
-            img2.src = item.image2;
-            div1_1.append(img1, img2);
-
-            const div1_2 = document.createElement("div");
-            const div1_2_1 = document.createElement("div");
-            div1_2_1.className = "head";
-            div1_2_1.innerHTML = item.name;
-            const div1_2_2 = document.createElement("div");
-            div1_2_2.className = "heart";
-            const div1_2_2_1 = document.createElement("div");
-            div1_2_2_1.innerHTML = `$${item.cost}`;
-            const div1_2_2_2 = document.createElement("div");
-            const img3 = document.createElement("img");
-            img3.src = "C:\Users\Sumit Singh\Desktop\ftweb10\Major Project\MISS A\Images\rheart.png ";
-            const div1_2_3 = document.createElement("div");
-            div1_2_3.className = "star";
-            const img4 = document.createElement("img");
-            img4.src = "https://p.kindpng.com/picc/s/380-3809163_4-out-of-5-star-rating-hd-png.png";
-            div1_2_3.append(img4);
-            div1_2_2_2.append(img3);
-            div1_2_2.append(div1_2_2_1, div1_2_2_2);
-            div1_2.append(div1_2_1, div1_2_2, div1_2_3);
-
-            div1.append(div1_1, div1_2);
-            content.append(div1);
-        })
-    }
-    shoppingPush();
-
-
-</script>
+<script src="arrival.js"></script>

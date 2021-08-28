@@ -24,6 +24,7 @@ body{
     height: 135px;
     background-color: black;
     display: flex;
+    z-index: 999;
 }
 #nav_bar>div{
     height: 75%;
@@ -64,6 +65,7 @@ body{
 #nav_grid>div:nth-child(1) img{
     margin-left: 47%;
     width: auto;
+    cursor: pointer;
 }
 #nav_grid>div:nth-child(2){
     width: 100%;
@@ -79,6 +81,7 @@ body{
     font-size: small;
     font-weight: 700;
     text-align: center;
+    cursor: pointer;
 }
 #nav_grid>div:nth-child(2) div:nth-child(1){
     margin-left: 10%;
@@ -107,7 +110,138 @@ body{
     font-size: xx-large;
     font-weight: 700;
     text-align: center;
+    cursor: pointer;
 }
-#banner1>img{
+.banner1>img{
     width: 100%;
+    cursor: pointer;
+}
+#aid1,
+#aid2{
+    width: 100%;
+    height: 800px;
+    background-color: white;
+}
+#ad1_head,
+#ad2_head{
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* Content */
+#ad1,
+#ad2{
+    margin-top: 100px;
+    width: 100%;
+    display: grid;
+    grid-gap: 2%;
+    grid-template-columns: 23% 23% 23% 23%;
+}
+#ad1>div,
+#ad2>div{
+    margin: 2%;
+    height: 540px;
+    display: flex;
+    flex-direction: column;
+}
+#ad1>div>div,
+#ad2>div>div{
+    text-align: center;
+}
+#ad1>div>div:nth-child(1),
+#ad2>div>div:nth-child(1){
+flex-grow: 1;
+}
+#ad1>div>div:nth-child(2),
+#ad2>div>div:nth-child(2){
+flex-grow: 0;
+}
+.fader {
+  position:relative;
+  width: 100%;
+  margin:0 auto;
+  cursor: pointer;
+}
+.fader img {
+    width: 100%;
+  position:absolute;
+  left:0;
+  transition: opacity .5s ease-in-out;
+}
+
+.fader img.top:hover {
+  opacity:0;
+}
+.star>img{
+    width: 30%;
+}
+.head{
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+}
+.heart{
+    display: flex;
+    justify-content: center;    
+}
+.heart>div{
+    width: 20%;
+    margin-top: 5px;
+}
+.heart>div>img{
+    margin-top: 2px;
+    width: 30%;
+}
+
+
+/* Fotter */
+#footer{
+    background-color: #2e2e2e;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+#footer>div{
+    margin: 1%;
+    width: 94%;
+    display: flex;
+}
+#footer_center>div{
+    margin: 1% 5%;
+    width: 80%;
+    height: 85%;
+    color: white;
+}
+#footer_center>div>p{
+    font-size: 13px;
+    cursor: pointer;
+}
+#footer_center{
+        height: 350px;
+}
+#connection{
+    height: 100px;
+}
+#connection>div{
+    width: 2%;
+    margin: 1%;
+}
+#connection>div:nth-child(1){
+    margin-left: 5%;
+}
+#connection>div>img{
+    width: 100%;
+    margin: 1%;
+    cursor: pointer;
+}
+#copyright{
+        height: 50px;
+}
+#copyright>p{
+    font-size: x-small;
+        color: white;
+        margin-left: 5%;
 }

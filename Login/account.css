@@ -8,7 +8,7 @@ body{
     display: flex;
     height: 40px;
     font-size: 10px;
-        background-color: #efcbd7;
+    background-color: #efcbd7;
 }
 #dollar>div{
     text-align: center;
@@ -24,7 +24,6 @@ body{
     height: 135px;
     background-color: black;
     display: flex;
-    z-index: 999;
 }
 #nav_bar>div{
     height: 75%;
@@ -101,104 +100,58 @@ body{
     cursor: pointer;
 }
 
-/* Sorting */
-#sorting{
-    width: 100%;
-    height: 65px;
-    margin-top: -4px;
-    display: flex;
-}
-#sorting>div{
-    border: 1px solid rgba(128, 128, 128, 0.144);
-}
-#sorting>div:nth-child(2){
-flex-grow: 2;
-}
-#sorting>div:nth-child(1){
-flex-grow: .001;
-display: flex;
-align-items: center;
-
-}
-#sorting>div:nth-child(1)>div{
-    width: 16%;
-    margin-left: 20%;
-    cursor: pointer;
-}
-#sorting>div:nth-child(1)>div>img{
-width: 100%;
-
-}
-#sorting>div:nth-child(3){
-flex-grow: .15;
-}
-#sorting>div:nth-child(3)>select{
-width: 100%;
-height: 100%;
-border: 0px;
-color: gray;
-}
-
-/* COntent */
+/* Login COntent */
 #content{
-    margin: 3% auto;
-    width: 94%;
-    display: grid;
-    grid-gap: 2%;
-    grid-template-columns: 23% 23% 23% 23%;
+    width: 100%;
+    height: 500px;
 }
 #content>div{
-    margin: 2%;
-    height: 540px;
+    margin: auto;
+    width: 30%;
+    height: 400px;
     display: flex;
     flex-direction: column;
 }
 #content>div>div{
-    text-align: center;
+    width: 100%;
+    margin: 2%;
+    height: 30px;
 }
 #content>div>div:nth-child(1){
-flex-grow: 1;
+    margin-top: 20%;
+    text-align: center;
+    font-size: 26px;
 }
 #content>div>div:nth-child(2){
-flex-grow: 0;
+    text-align: center;
+    font-size: 14px;
+    height: 16px;
 }
-.fader {
-  position:relative;
-  width: 100%;
-  margin:0 auto;
-  cursor: pointer;
+#content>div>div:nth-child(3),
+#content>div>div:nth-child(4),
+#content>div>div:nth-child(5),
+#content>div>div:nth-child(6),
+#content>div>div:nth-child(7){
+    flex-grow: .1;
 }
-.fader img {
+#content>div>div:nth-child(3)>input,
+#content>div>div:nth-child(4)>input,
+#content>div>div:nth-child(5)>input,
+#content>div>div:nth-child(6)>input{
+    width: 98%;
+    height: 100%;
+    border: 1px solid rgba(128, 128, 128, 0.301);
+}
+#content>div>div:nth-child(7){
     width: 100%;
-  position:absolute;
-  left:0;
-  transition: opacity .5s ease-in-out;
-}
-
-.fader img.top:hover {
-  opacity:0;
-}
-.star>img{
-    width: 30%;
-}
-.head{
-    font-weight: 700;
+    text-align: center;
+    padding-top: 3%;
+    background-color: black;
+    color: white;
     font-size: 14px;
     cursor: pointer;
 }
-.heart{
-    display: flex;
-    justify-content: center;   
-    cursor: pointer; 
-}
-.heart>div{
-    width: 20%;
-    margin-top: 5px;
-}
-.heart>div>img{
-    margin-top: 2px;
-    width: 30%;
-}
+
 
 /* Fotter */
 #footer{
@@ -237,7 +190,7 @@ flex-grow: 0;
     margin-left: 5%;
 }
 #connection>div>img{
-    width: 80%;
+    width: 100%;
     margin: 1%;
     cursor: pointer;
 }

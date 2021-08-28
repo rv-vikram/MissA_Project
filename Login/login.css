@@ -8,7 +8,7 @@ body{
     display: flex;
     height: 40px;
     font-size: 10px;
-        background-color: #efcbd7;
+    background-color: #efcbd7;
 }
 #dollar>div{
     text-align: center;
@@ -64,6 +64,7 @@ body{
 #nav_grid>div:nth-child(1) img{
     margin-left: 47%;
     width: auto;
+    cursor: pointer;
 }
 #nav_grid>div:nth-child(2){
     width: 100%;
@@ -79,6 +80,7 @@ body{
     font-size: small;
     font-weight: 700;
     text-align: center;
+    cursor: pointer;
 }
 #nav_grid>div:nth-child(2) div:nth-child(1){
     margin-left: 10%;
@@ -95,13 +97,68 @@ body{
     margin-left: 1%;
     flex-basis: 22%;
     display: flex;
+    cursor: pointer;
 }
 
 /* Login COntent */
 #content{
     width: 100%;
-    height: 400px;
+    height: 500px;
 }
+#content>div{
+    margin: auto;
+    width: 30%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+#content>div>div{
+    width: 100%;
+    margin: 2%;
+    height: 30px;
+}
+#content>div>div:nth-child(1){
+    margin-top: 20%;
+    text-align: center;
+    font-size: 26px;
+}
+#content>div>div:nth-child(2){
+    text-align: center;
+    font-size: 14px;
+    height: 16px;
+}
+#content>div>div:nth-child(3),
+#content>div>div:nth-child(4),
+#content>div>div:nth-child(5){
+    flex-grow: .1;
+}
+#content>div>div:nth-child(3)>input,
+#content>div>div:nth-child(4)>input{
+    width: 98%;
+    height: 100%;
+    border: 1px solid rgba(128, 128, 128, 0.301);
+}
+#content>div>div:nth-child(5){
+    width: 100%;
+    text-align: center;
+    padding-top: 3%;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+#content>div>div:nth-child(6){
+    width: 100%;
+    text-align: center;
+    padding-top: 3%;
+    font-size: 14px;
+}
+#content>div>div:nth-child(6)>span{
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
 
 /* Fotter */
 #footer{

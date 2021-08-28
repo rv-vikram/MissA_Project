@@ -7,7 +7,7 @@
 #left_pane{
 margin: 0px;
 width: 55%;
-height: auto;
+height: 1150px;
 }
 #logo{
     margin-top: 7%;
@@ -37,6 +37,7 @@ height: auto;
     border: 1px solid rgba(128, 128, 128, 0.267);
     height: 70px;
     border-radius: 5px;
+    cursor: pointer;
 }
 #express>div{
     flex-basis: 22.5%;
@@ -57,7 +58,6 @@ height: auto;
     margin-top: 20px;
     width: 65%;
     height: 700px;
-    border: .5px solid rgba(128, 128, 128, 0.267);
 }
 #shipping_info>div:nth-child(1){
     margin-top: 40px;
@@ -95,8 +95,44 @@ height: auto;
     height: 35px;
     border-radius: 5px;
 }
-#address>input:nth-child(1){
-    width: 48%;
+#address>input:nth-child(1),
+#address>input:nth-child(2){
+    width: 46.7%;
+}
+#address>input:nth-child(7),
+#address>input:nth-child(8),
+#address>input:nth-child(9){
+    width: 29.5%;
+}
+#shipping_info>div:nth-child(6){
+    margin-top: 20px;
+    font-size: 16px;
+}
+#shipping_info>div:nth-child(7){
+    margin-top: 15px;
+    font-size: 10px;
+}
+#shipping_info>div:nth-child(8){
+    margin-top: 25px;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+#shipping_info>div:nth-child(8)>div{
+    width: 30%;
+    padding: 5%;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+#shipping_info>div:nth-child(8)>div:nth-child(2){
+    width: 30%;
+    padding: 5%;
+    height: 30px;
+    background-color:#454545;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
 }
 
 
@@ -106,5 +142,63 @@ width: 45%;
 height: auto;
 border-left: 1px solid rgba(128, 128, 128, 0.26);
 background-color: #fafafa;
+}
+#right_pane>div:nth-child(1){
+    margin: 5%;
+    margin-top: 7%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+#right_pane>div:nth-child(1)>div{
+    width: 40%;    
+}
+#right_pane>div:nth-child(1)>div:nth-child(1){
+    width: 20%;    
+}
+
+#right_pane>div:nth-child(1)>div>img{
+    width: 50%;
+}
+.line{
+    margin: 25px;
+    width: 70%;
+    border: .5px solid rgba(128, 128, 128, 0.199);
+}
+#code{
+    margin:4%;
+    display: flex;
+}
+#code>input{
+    width: 60%;
+    height: 50px;
+    border: 1px solid rgba(128, 128, 128, 0.233);
+}
+#code>div{
+    margin-left: 1%;
+    text-align: center;
+    padding: 3%;
+    width: 10%;
+    height: 20px;
+    background-color: #454545;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#right_pane>div:nth-child(5){
+    margin-top: 3%;
+    font-size: 14px;
+    word-spacing: 350px;
+}
+#right_pane>div:nth-child(6){
+    margin-top: 2%;
+    font-size: 14px;
+    word-spacing: 347px;
+}
+#right_pane>div:nth-child(7){
+    margin-top: 2%;
+    font-size: 14px;
+    word-spacing: 295px;
 }
 
