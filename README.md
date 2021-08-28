@@ -7,7 +7,7 @@ This project is a complete clone UI of the shopmissa website with the functional
   <ul>
     <li>https://github.com/rv-vikram/MissA_Project.git</li>
     <li>cd MissA_Project</li>
-    <li>Execute the Homepage.html file in the browser, and enjoy exploring range of cosmetics using my website</li>
+    <li>Execute the Home.html file in the browser, and enjoy exploring range of cosmetics using my website</li>
   </ul>
 </ul>
 
