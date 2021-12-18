@@ -192,9 +192,9 @@ const sort = document.getElementById("sortit");
 sort.addEventListener("click", function () {
     const sorted = document.getElementById("sorted").value;
     if (sorted == "PHtoL") {
-        LToH("low");
-    } else {
         LToH("High");
+    } else {
+        LToH("low");
     }
 })
 
@@ -221,7 +221,7 @@ function LToH(x) {
     content.innerHTML = "";
     shoppingPush();
 }
-const fader = document.getElementsByClassName("fader")[0];
+const fader = document.getElementsByClassName("fader")[7];
 fader.addEventListener("click", function () {
     window.location.href = "Prod_display.html";
 })

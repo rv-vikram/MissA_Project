@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Please wait...</title>
+    <style>
+        body {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color: rgba(245, 222, 179, 0.233);
+        }
+
+        img {
+            width: 5%;
+        }
+
+        #home>div {
+            margin-top: 10%;
+            padding: 2%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="home"></div>
+</body>
+
+</html>
+
+<script>
+    let home = document.getElementById("home");
+    let div = document.createElement("div");
+    let image = document.createElement("img");
+    let para = document.createElement("p");
+    image.src = "https://lh4.googleusercontent.com/proxy/HUqjQI4wRFWfbOUjRYbx5y7A4gYBcBgvdUlrDqX0F_HBztrzVp03MR9U23cLVeoCPSd4yYstbW503W0Ia13zRInjmduhCGlQWtpS1eRsm49ypupDI44T0NsvHMk97ZykPDXDLzCxjYCg9f-62Tra3bf2Fw=s0-d";
+    para.innerHTML = "Please Wait, Processing..."
+    div.append(image, para);
+    home.append(div);
+
+    function payment() {
+        setTimeout(function () {
+            image.src = "https://i0.wp.com/websiteurl.org/wp-content/uploads/2021/05/transparent-check-mark-animated-gif-picture-image-download-watermark.gif?fit=500%2C500&ssl=1";
+            para.innerHTML = "Thank You for Shopping!";
+        }, 3000);
+        setTimeout(function () {
+            window.location.href = "file:///C:/Users/Sumit%20Singh/Desktop/ftweb10/Major%20Project/Miss%20A/Home.html";
+        }, 5000);
+    }
+    payment();
+</script>
