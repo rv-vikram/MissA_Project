@@ -15,20 +15,20 @@ window.onscroll = function () {
 //calls
 const user_login = document.getElementById("user_login");
 user_login.addEventListener("click", function () {
-    window.location.href = "file:///C:/Users/Sumit%20Singh/Desktop/ftweb10/Major%20Project/Miss%20A/Login/login.html";
+    window.location.href = "../Login/login.html";
 });
 const wishlist = document.getElementById("wishlist");
 wishlist.addEventListener("click", function () {
-    window.location.href = "file:///C:/Users/Sumit%20Singh/Desktop/ftweb10/Major%20Project/Miss%20A/Wishlist/Wishlist.html";
+    window.location.href = "../Wishlist/Wishlist.html";
 });
 
 const arrivals = document.getElementById("arrivals");
 arrivals.addEventListener("click", function () {
-    window.location.href = "file:///C:/Users/Sumit%20Singh/Desktop/ftweb10/Major%20Project/Miss%20A/Arrivals+Discription/arrival.html";
+    window.location.href = "../Arrivals+Discription/arrival.html";
 });
 const missLogo = document.getElementById("missLogo");
 missLogo.addEventListener("click", function () {
-    window.location.href = "file:///C:/Users/Sumit%20Singh/Desktop/ftweb10/Major%20Project/Miss%20A/Home.html";
+    window.location.href = "../Home.html";
 });
 
 //Account creation information
@@ -48,7 +48,7 @@ createAcc.addEventListener("click", function () {
             password: passwordd
         };
         localStorage.setItem("UserDetails", JSON.stringify(user_details));
-        window.location.href = "file:///C:/Users/Sumit%20Singh/Desktop/ftweb10/Major%20Project/Miss%20A/Login/login.html";
+        window.location.href = "../Login/login.html";
     }
 })
 

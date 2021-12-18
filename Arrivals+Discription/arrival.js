@@ -151,7 +151,7 @@ function shoppingPush() {
         div1_2_2_1.innerHTML = `$${item.cost}`;
         const div1_2_2_2 = document.createElement("div");
         const img3 = document.createElement("img");
-        img3.src = "file:///C:/Users/Sumit%20Singh/Desktop/ftweb10/Major%20Project/Miss%20A/Images/rheart.png";
+        img3.src = "../Images/rheart.png";
         const div1_2_3 = document.createElement("div");
         div1_2_3.className = "star";
         const img4 = document.createElement("img");
@@ -170,20 +170,20 @@ shoppingPush();
 //calls
 const user_login = document.getElementById("user_login");
 user_login.addEventListener("click", function () {
-    window.location.href = "file:///C:/Users/Sumit%20Singh/Desktop/ftweb10/Major%20Project/Miss%20A/Login/login.html";
+    window.location.href = "../Login/login.html";
 });
 const wishlist = document.getElementById("wishlist");
 wishlist.addEventListener("click", function () {
-    window.location.href = "file:///C:/Users/Sumit%20Singh/Desktop/ftweb10/Major%20Project/Miss%20A/Wishlist/Wishlist.html";
+    window.location.href = "../Wishlist/Wishlist.html";
 });
 
 const arrivals = document.getElementById("arrivals");
 arrivals.addEventListener("click", function () {
-    window.location.href = "file:///C:/Users/Sumit%20Singh/Desktop/ftweb10/Major%20Project/Miss%20A/Arrivals+Discription/arrival.html";
+    window.location.href = "../Arrivals+Discription/arrival.html";
 });
 const missLogo = document.getElementById("missLogo");
 missLogo.addEventListener("click", function () {
-    window.location.href = "file:///C:/Users/Sumit%20Singh/Desktop/ftweb10/Major%20Project/Miss%20A/Home.html";
+    window.location.href = "../Home.html";
 });
 
 
