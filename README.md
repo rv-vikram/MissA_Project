@@ -4,9 +4,9 @@ This project is a complete clone UI of the shopmissa website with the functional
 ## How to run the app?
 Clone the repo and run the app.
   
-    https://github.com/rv-vikram/MissA_Project.git
-    cd MissA_Project
-    Execute the Home.html file in the browser, and enjoy exploring range of cosmetics using my website
+https://github.com/rv-vikram/MissA_Project.git
+cd MissA_Project
+Execute the Home.html file in the browser, and enjoy exploring range of cosmetics using my website
   
 
 
