@@ -2,53 +2,85 @@
 This project is a complete clone UI of the shopmissa website with the functionalities of ordering luxuries to cheap cosmetics. I used localStorage, JSON to save user data, categorising data, login data, etc.
 
 ## How to run the app?
-<ul>
-  <li>Clone the repo and run the app.</li>
-  <ul>
-    <li>https://github.com/rv-vikram/MissA_Project.git</li>
-    <li>cd MissA_Project</li>
-    <li>Execute the Home.html file in the browser, and enjoy exploring range of cosmetics using my website</li>
-  </ul>
-</ul>
+Clone the repo and run the app.
+  
+    https://github.com/rv-vikram/MissA_Project.git
+    cd MissA_Project
+    Execute the Home.html file in the browser, and enjoy exploring range of cosmetics using my website
+  
+
 
 ## Built with
-<ul>
-  <li>HTML</li>
-  <li>CSS</li>
-  <li>JS DOM</li>
-</ul>
+
+ - HTML
+ - CSS
+ - JS DOM
+
 
 ## Used libraries
-<ul>
-  <li>Font awesome</li>
-  <li>Google fonts</li>
-  <li>Google Icons</li>
-  <li>Flaticon</li>
-</ul>
+
+  - Font awesome
+  - Google fonts
+  - Google Icons
+  - Flaticon
+
 
 ## Created Pages 
-<ul>
-  <li>Landing Page</li>
-  <li>Login Page</li>
-  <li>Wishlist Page</li>
-  <li>Various Products Page</li>
-  <li>Product Discription Page</li>
-  <li>Information Adding page</li>
-  <li>Payment Page</li>
-</ul>
+
+ - Landing Page
+ - Login Page
+ - Wishlist Page
+ - Various Products Page
+ - Product Discription Page
+ - Information Adding page
+ - Payment Page
+
 
 ## Functionalities Added
-<ul>
-  <li>Responsiveness in landing page</li>
-  <li>Added Signup and Login functionalities</li>
-  <li>Added Sorting between categories</li>
-  <li>Available products viewing, and selection functionalites</li>
-  <li>Functionality to order a product</li>
-  <li>Functionality to make a payment</li>
-  <li>Added booking success display functionality</li>
-</ul>
+
+ - Responsiveness in landing page
+- Added Signup and Login functionalities
+- Added Sorting between categories
+- Available products viewing, and selection functionalites
+- Functionality to order a product
+- Functionality to make a payment
+- Added booking success display functionality
+
 
 ## Team Members 
-<ul>
-  <li>Ramendra Vikram Singh Parihar</li>
-</ul>
+
+ - Ramendra Vikram Singh Parihar
+
+
+## Some Snapshots of our project that we made:-
+
+###  Landing Page:- 
+
+
+This is the Landing page when the user enters the website for the first time this page will show up.
+
+![landing](./Arrivals+Discription/Readme/Screenshot%20(364).png)
+
+###  Signup page:-
+
+![2021-11-13 (6)](./Arrivals+Discription/Readme/Screenshot%20(366).png)
+
+### Signin page:-
+
+![2021-11-13 (2)](./Arrivals+Discription/Readme/Screenshot%20(365).png)
+
+### Appreals:-
+
+![2021-11-13 (3)](./Arrivals+Discription/Readme/Screenshot%20(367).png)
+
+
+### Product Description:-
+
+
+![2021-11-13 (5)](./Arrivals+Discription/Readme/Screenshot%20(368).png)
+
+### Address & Payment:-
+
+
+![2021-11-13 (5)](./Arrivals+Discription/Readme/Screenshot%20(369).png)
+
